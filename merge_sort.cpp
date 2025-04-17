@@ -22,5 +22,22 @@ void input()
             cout << "\nMaksimal panjang array adalah 20";
         }
  }
+cout << "\n--------------------------" << endl;
+cout << "\nInputkan isi element array" << endl;
+cout << "\n--------------------------" << endl;
 
+for (int i = 0; i < n; i++)
+    {
+  cout << "array index ke- " << i << " : ";
+  cin >> arr[i];
+    }
+}
     
+
+//create function merge sort
+void mergesort(int low, int high)
+{
+     if (low >= high) //step 1
+     {
+        return; // step 1.a
+     }
