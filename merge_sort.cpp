@@ -90,5 +90,16 @@ k++;           // step 4.f.iii
     }
 } 
 
+void output()
+{
+cout << "\nData setelah diurutkan (merge sort): ";
+for (int i = 0; i < n; i++)
+{
+cout << arr[i] << " ";
+}
+cout << endl;
+}
+        
+
 
     
