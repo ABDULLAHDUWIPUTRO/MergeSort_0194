@@ -44,4 +44,7 @@ void mergesort(int low, int high)
 
      int mid = (low + high) / 2; //step 2
 
-     
+     //step 3
+     //fungsi rekursi - memanggil diri sendiri
+     mergesort(low, mid);      //STEP 3.a
+     mergesort(mid + 1, high); //STEP 3.B
